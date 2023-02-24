@@ -1,0 +1,11 @@
+.header__link-list {
+    display: inline-block;
+
+    background-size: cover;
+    background: url(../../../images/svg/polygon.svg) no-repeat;
+
+    width: 7px;
+    height: 6px;
+
+    margin-left: 15px;
+}

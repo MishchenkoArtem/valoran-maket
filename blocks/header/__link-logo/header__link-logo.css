@@ -4,7 +4,7 @@
     padding-right: 60px;
 }
 
-.header__link-logo:last-of-type {
+.header__link-logo:nth-child(2) {
     border: none;
     padding-right: 0;
     padding-left: 60px;
