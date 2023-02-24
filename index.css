@@ -1,61 +1,10 @@
-.body {
-    margin: 0 auto;
-}
+@import url(./blocks/body/body.css);
 
-.header {
-    background-color: #1F2326;
-
-    display: flex;
-    justify-content: center;
-}
-
-.header__container {
-    max-width: 2515px;
-
-    padding: 46px 0;
-
-    display: flex;
-    align-items: center;
-}
-
-.header__logo-rito {
-    margin: 0 60px 0 0;
-    object-fit: cover;
-
-    width: 79px;
-    height: 40px;
-
-    position: relative;
-}
-
-.header__logo-rito::before {
-    content: "";
-
-    background-color: red;
-    min-height: 42px;
-    min-width: 2px;
-    
-    position: absolute;
-}
-
-.header__logo-valoran {
-    padding: 0 86px 0 60px;
-
-    object-fit: cover;
-    width: 48px;
-    height: 40px;
-}
-
-.header__list {
-    display: flex;
-
-    list-style-type: none;
-
-    margin: 0;
-    padding: 0;
-}
-
-.header__link {
-    color: #fff;
-    text-decoration: none;
-}
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__container/header__container.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__link-logo/header__link-logo.css);
+@import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__list/header__list.css);
+@import url(./blocks/header/__list-item/header__list-item.css);
+@import url(./blocks/header/__link-item/header__link-item.css);

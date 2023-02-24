@@ -1,0 +1,11 @@
+.header__link-logo {
+    display: flex;
+    border-right: 2px solid #fff;
+    padding-right: 60px;
+}
+
+.header__link-logo:last-of-type {
+    border: none;
+    padding-right: 0;
+    padding-left: 60px;
+}

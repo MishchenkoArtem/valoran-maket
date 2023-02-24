@@ -1,0 +1,8 @@
+.header__container {
+    display: flex;
+    max-width: 2660px;
+
+    padding: 46px 73px;
+
+    box-sizing: border-box;
+}
