@@ -1,0 +1,12 @@
+.cards__item {
+    background: url(../../../images/svg/background-card.svg);
+
+    width: 440px;
+    height: 990px;
+
+    margin-right: 144px;
+}
+
+.cards__item:last-of-type {
+    margin-right: 0;
+}

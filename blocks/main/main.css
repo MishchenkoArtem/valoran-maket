@@ -1,0 +1,8 @@
+.main {
+    background: url(../../images/svg/background-main.svg);
+    background-color: #FF4656;
+
+    width: 100%;
+
+    padding-top: 113px;
+}
